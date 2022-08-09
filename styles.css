@@ -1,0 +1,238 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+}
+
+#backToTop {
+  margin-left: 80%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #backToTop {
+    margin-top: 180%;
+    margin-right: 50vh;
+  }  
+}
+
+#upperButtons {
+  margin-left: 25%;
+  display: inline-block;
+  background-color: orange;
+  position: absolute;
+  position: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+  #upperButtons {
+    margin-left: 2%;
+  }  
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+}
+body {
+  color: white;
+  margin: 0;
+
+}
+
+.homePage {
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  background-image: url(Background1.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: none;
+  padding: none;
+  background-attachment: fixed;
+}
+.fadedSection {
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.596);
+  position: absolute;
+  z-index: 3;
+  height: 100vh;
+  width: 40vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .fadedSection {
+    width: 50vw;
+  }  
+}
+
+.menuPage {
+  background-size: cover;
+  background-color: rgb(255, 223, 164);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: 0;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+   background-attachment: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuPage {
+    height: 315vh;
+  }  
+}
+
+.MenuDishes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.Dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100%;
+}
+
+.glutenFreePage{
+  background-size: cover;
+  background-color: rgb(255, 223, 164);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: 2;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+.glutenFreeMneuDishes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.faqPage {
+  background-image: url(background4.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: x-large;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+  .faqPage {
+    height: 100vh;
+    font-size: medium;
+  }  
+}
+#FAQ {
+  text-align: left;
+  margin-right: 25px;
+}
+.contactPage {
+  background-size: cover;
+  background-color: rgb(255, 223, 164);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+#Contact {
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: orange;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.glutenFree{
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  font-size: xx-large;
+  background-color: orange;
+}
+
+.Dish:hover .glutenFree{
+  opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .homePage {
+    height: 100vh;
+    
+  }
+}
+
+.Dish:hover{
+transform: scale(1.2);
+transition: ease-in-out 300ms;
+z-index: 999;
+
+}
+
+
