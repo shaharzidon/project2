@@ -1,4 +1,4 @@
-# Abandoned-animals-inspector
+# Resturant Website
 
 The resturant website, is my first project that deploeyd, so it was made mainly for learning and implementing the first skills i learned as in front-end.
 
